@@ -1,0 +1,263 @@
+/* Homepage CSS */
+.homepageProjectUXContainer{
+    display: flex;
+    gap: 30px;
+
+    margin-bottom: 50px;
+    justify-content: center;
+
+    
+}
+
+
+#projectsHeader{
+    margin-top: 85px;
+    margin-bottom: 35px;
+    margin-left:50px;
+}
+.homepageProject{
+    flex-basis:100px;
+}
+.overArchingProjectContainer h2{
+    margin-left:10%;
+}
+
+.homepageProjectfullstackContainer{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+}
+.homepageProject .PO{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+}
+
+
+.headerContainer {
+    display: flex;
+    gap: 10px;
+  }
+
+  #name{
+    margin-right:10px;
+  }
+
+.title{
+    margin-left: 10%;
+}
+  
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 30px;
+margin-top:40px;
+margin-left:120px;
+margin-right:0px;
+}
+.introImage{
+    grid-area: 1/ 1/1/1;
+    align-items:end;
+   
+}
+.textToIntro{
+    margin-top: 30px;
+    margin-bottom:40px;
+    grid-area: 1/1/2/5;
+    align-items:start;
+}
+.projectPointer{
+    grid-area: 2/2/3/5
+}
+.evanPhoto{
+    float:left;
+    border-radius:50%;
+    position:static;
+    top: 100px;
+}
+
+
+.introPhoto{
+    position:Static;
+    top:50px;
+    bottom:50px;
+}
+
+.slideImages{
+    display:grid;
+    gap:20px;
+    justify-content: center;
+    grid: 500px;
+
+}
+.slide{
+    width: 100vh;
+    margin-left: 0px;
+}
+.allProjects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    column-gap: 0px;
+    row-gap: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+
+    
+} 
+.allProjects img{
+    max-width: 700px;
+}
+
+.portfolioImages{
+    border:30px;
+    border-color:Black;
+    height:500px;
+    
+}
+
+.linkedIn{
+    height: 40px;
+    margin-bottom: 80px;
+
+}
+.resume{
+    height:1200px;
+}
+.dpvid{
+    height: 600px;
+    margin-left: 50%;
+    margin-bottom: 200px
+}
+
+@media(max-width: 900px){
+    .allProjects{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr 1fr;
+        column-gap: 20px;
+        row-gap: 60px;
+        margin-left: 50px;
+        margin-right: 550px;
+        margin-top: 75px;
+    
+        
+    } 
+    .allProjects img{
+        max-width: 650px;
+    }
+}
+.featureProjectsTitle{
+    margin-top: 50px;
+    margin-left: 50px;
+}  
+
+
+.projectPageProject .one{
+    grid-area: 1 / 1 /2 /2;
+    }
+
+.projectPageProject .two{
+    grid-area: 2 / 1 /3 /2;
+        }
+ .projectPageProject .three{
+    grid-area: 1 / 2 /2 /3;
+        } 
+        
+ .projectPageProject .four{
+    grid-area: 2 / 2 /3 /3;
+            }
+ 
+.projectPageProject .one{
+    grid-area: 1 / 1 /2 /2;
+        }           
+
+.optionsOnBottom{
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.slideAboutMe{
+    margin-left:25%;
+}
+
+.textToIndent{
+    margin-left:30px;
+}
+/* Projects CSS */
+@media(max-width: 600px){
+    .projectContainer {
+    display:flex;
+    flex: 1;
+
+          
+        }  
+.slide{
+    height: 300px;
+         }
+.allProjects{
+    display: grid;
+    row-gap: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}  
+.featureProjectsTitle{
+    margin-top: 10px;
+    margin-left: 10px;
+}  
+.projectPageProject img{
+    height: 400px;
+}
+.projectImages img{
+    margin-left: 10%;
+    margin-top: 75px;
+    
+}
+.slideAboutMe{
+    margin-left:5%;
+    height:400px;
+}
+
+/* .projectContainer .project{
+    
+           
+
+        } */
+}
+.projectContainer{
+    display:flex;
+    gap:40px;
+    margin-top: 30px;
+    margin-left: 15%;
+       
+}
+.projectContainer .project{
+    width:600px;
+    
+    
+}
+.projectContainer img{
+    width: 30px;
+}
+.projectImages img{
+    margin-left: 25%;
+    margin-top: 75px;
+    
+}
+.projectImages .one{
+    margin-top:30px;
+}
+.projectImages .nine{
+    margin-bottom: 50px;
+}
+
+
+.footer{
+    margin-top:100px;
+}
