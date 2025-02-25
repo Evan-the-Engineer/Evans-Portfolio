@@ -3,3 +3,6 @@
 // include hover over halos 
 
 
+// $("img").on("mouseover", function(){
+//     $("img").css("color", "grey")
+// })
